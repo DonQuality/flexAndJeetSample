@@ -11,6 +11,9 @@
 
   h1{
     @include fonty(2em, #555, 100);
+    @media (max-width: 500px){
+      @include fonty(1.2em, #555, 100);
+    }
   }
 }
 

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>{{ title }}</title>
+    <!-- meta tags -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name ="description" content="">
+    <meta name ="keywords" content ="">
+    <meta charset="UTF-8">
+    <!-- links -->
+    <link rel='stylesheet' href='/stylesheets/app.css'>
+    <link rel="icon" type="image/png" href="/images/fav.png">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>
+      <span class="hide-on-mobile">Flex & Jeet</span> Responsive Layout Sample</h1>
+      <nav class="hide-on-mobile">
+        <ul class="nav-list">
+          <li class="item">link 1</li>
+          <li class="item">link 2</li>
+          <li class="item">link 3</li>
+          <li class="item">link 4</li>
+        </ul>
+      </nav>
+      <p class="toggle-menu hide-on-desktop">&#9776;</p>
+    </header>
+    <section class="sports-cars-wrap">
+      <h1 class="title">Example</h1>
+      <ul class="car-box-wrap">
+        <li class="car-box">
+          <img src="http://discover10.com/wp-content/uploads/2015/03/Sports-Cars-Wallpapers.jpg" alt="Sports car image">
+        </li>
+        <li class="car-box">
+          <img src="http://discover10.com/wp-content/uploads/2015/03/Sports-Cars-Wallpapers.jpg" alt="Sports car image">
+        </li>
+        <li class="car-box">
+          <img src="http://discover10.com/wp-content/uploads/2015/03/Sports-Cars-Wallpapers.jpg" alt="Sports car image">
+        </li>
+        <li class="car-box">
+          <img src="http://discover10.com/wp-content/uploads/2015/03/Sports-Cars-Wallpapers.jpg" alt="Sports car image">
+        </li>
+        <li class="car-box">
+          <img src="http://gearpatrol.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/Acura-NSX-Concept-gear-patrol.jpg" alt="Sports car image">
+        </li>
+        <li class="car-box">
+          <img src="http://gearpatrol.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/Acura-NSX-Concept-gear-patrol.jpg" alt="Sports car image">
+        </li>
+        <li class="car-box">
+          <img class="kill-right" src="http://gearpatrol.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/Acura-NSX-Concept-gear-patrol.jpg" alt="Sports car image">
+        </li>
+        <li class="car-box">
+          <img src="http://gearpatrol.wpengine.netdna-cdn.com/wp-content/uploads/2013/01/Acura-NSX-Concept-gear-patrol.jpg" alt="Sports car image">
+        </li>
+      </ul>
+    </section>
+    <main>
+      <section class="main-content">
+        <h1 class="title">Example</h1>
+        <section class="content-left-box">
+          <h2>LEFT CONTENT</h2>
+          <p>
+            Lorem ipsum Ex nisi id magna exercitation do dolore laborum velit id dolore elit nostrud culpa ut pariatur ut aute deserunt id aliquip ad commodo pariatur sed commodo consequat officia laborum officia sunt consequat tempor eu laborum laborum in irure pariatur fugiat est eiusmod minim Excepteur fugiat enim minim cillum minim in qui do tempor et laborum ea voluptate fugiat non amet laboris sint deserunt dolore exercitation reprehenderit laborum sit deserunt pariatur occaecat ea officia esse commodo ea in Ut consequat dolore ullamco in reprehenderit laboris dolore tempor non aliquip laboris laborum non deserunt ut aliquip dolor.
+          </p>
+          <button class="learn-more-btn">Learn more</button>
+        </section>
+        <section class="content-right-box">
+        <h2>RIGHT CONTENT</h2>
+          <p>
+            Lorem ipsum Ex nisi id magna exercitation do dolore laborum velit id dolore elit nostrud culpa ut pariatur ut aute deserunt id aliquip ad commodo pariatur sed commodo consequat officia laborum officia sunt consequat tempor eu laborum laborum in irure pariatur fugiat est eiusmod minim Excepteur fugiat enim minim cillum minim in qui do tempor et laborum ea voluptate fugiat non amet laboris sint deserunt dolore exercitation reprehenderit laborum sit deserunt pariatur occaecat ea officia esse commodo ea in Ut consequat dolore ullamco in reprehenderit laboris dolore tempor non aliquip laboris laborum non deserunt ut aliquip dolor.
+          </p>
+          <button class="learn-more-btn">Learn more</button>
+        </section>
+      </section>
+      <section class="skills-container">
+        <h1 class="title">What I do ?</h1>
+        <div class="skills-box-wrap">
+        <figure class="skills-box">
+          <img src="images/icons/code.png" alt="Code icon">
+          <figcaption>
+            <p>
+              Lorem ipsum Ut aute dolor ullamco voluptate reprehenderit pariatur adipisicing consectetur magna reprehenderit dolor dolor anim consequat anim velit cillum in cillum ullamco incididunt dolore veniam laborum voluptate dolore magna Ut do elit nulla aliquip est sunt quis.
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="skills-box">
+          <img src="images/icons/pc.png" alt="Computer icon">
+          <figcaption>
+            <p>
+              Lorem ipsum Ut aute dolor ullamco voluptate reprehenderit pariatur adipisicing consectetur magna reprehenderit dolor dolor anim consequat anim velit cillum in cillum ullamco incididunt dolore veniam laborum voluptate dolore magna Ut do elit nulla aliquip est sunt quis.
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="skills-box">
+          <img src="images/icons/set.png" alt="Settings icon">
+          <figcaption>
+            <p>
+              Lorem ipsum Ut aute dolor ullamco voluptate reprehenderit pariatur adipisicing consectetur magna reprehenderit dolor dolor anim consequat anim velit cillum in cillum ullamco incididunt dolore veniam laborum voluptate dolore magna Ut do elit nulla aliquip est sunt quis.
+            </p>
+          </figcaption>
+        </figure>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2015 Quality Webz</p>
+    </footer>
+    <script src="http://localhost:35729/livereload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/velocity.min.js"></script>
+    <script src="/js/velocity.ui.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

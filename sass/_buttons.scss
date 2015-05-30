@@ -1,0 +1,11 @@
+@import "typography/manifest";
+@import "config";
+@import "buttons/manifest";
+
+.learn-more-btn{
+  @include style-btn(none, .5em, .1em solid #fff, 1em 0);
+  @media (max-width: 500px){
+    @include col(4/4);
+    margin: 1.5em 0;
+  }
+}

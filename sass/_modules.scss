@@ -1,0 +1,68 @@
+@import "typography/manifest";
+@import "config";
+
+// @include edit();
+
+.toggle-menu{
+  @include fonty(2em, #555, 100);
+  float: right;
+  font-size: 2em;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.nav-list{
+  @include col(4/4);
+  display: $flex;
+  @include fonty(1.5em, #555, 100);
+  li{
+    margin-left: 1em;
+  }
+}
+
+.sports-cars-wrap{
+  @include col(4/4);
+  padding: 1em;
+  text-align: center;
+}
+
+// content-box
+.main-content{
+  @include col(4/4);
+  padding: 1em;
+  text-align: center;
+  background: rgb(47, 189, 250) - 90;
+}
+
+.content-left-box{
+  @include col(1/2, $cycle: 2);
+  text-align: left;
+  padding: 3em;
+  @media (max-width: 1100px){
+    @include stack();
+  }
+  img{
+    float: left;
+    width: 50%;
+    margin: 0 1em;
+    margin-top: .5em;
+  }
+}
+
+.content-right-box{
+  @include col(1/2, $cycle: 2);
+  text-align: left;
+  padding: 3em;
+  @media (max-width: 1100px){
+    @include stack();
+  }
+}
+
+footer{
+  @include col(4/4);
+  @include fonty(1.2em, rgb(47, 189, 250) - 90, 100);
+  padding: 8em;
+  text-align: center;
+  background: rgb(242, 242, 242);
+}

@@ -1,0 +1,66 @@
+@import "typography/manifest";
+@import "config";
+
+.main-header{
+  display: $flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: .8em;
+  background: rgb(242, 242, 242);
+
+  h1{
+    @include fonty(2em, #555, 100);
+  }
+}
+
+.car-box-wrap{ // Using flexbox to stack elements on mobile devices!
+  @include col(4/4);
+  @media (max-width: 500px){
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.car-box{ // Just using flexbox to re order elements on mobile devices!
+  @include col(1/4, $cycle: 4);
+  margin-top: 2em;
+  @media (max-width: 1100px){
+    @include col(1/2, $cycle: 2);
+  }
+  @media (max-width: 500px){
+    @include stack();
+    &:nth-child(5){
+      order: -1;
+    }
+  }
+}
+
+.skills-box-wrap{ //Here I'm stacking the elements using flex box only!
+  @include col(4/4);
+  padding: 1em;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  @media (max-width: 1100px){
+    flex-direction: column;
+  }
+  img{
+    width: 25%;
+  }
+  figcaption{
+    padding: 4em;
+  }
+  p{
+    @include fonty(1.8em, #333 + 10, 100);
+  }
+}
+
+.skills-box{ // Here I'm re ordering the elements using flexbox.
+  @media (max-width: 1100px){
+    &:nth-child(3){
+      order: -1;
+    }
+  }
+}

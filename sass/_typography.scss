@@ -1,0 +1,19 @@
+@import "typography/manifest";
+
+.title{
+  @include fonty(3em, rgb(47, 189, 250), 400);
+  margin: 1em 0;
+}
+
+.main-content{
+  h1{
+    @include fonty(null, #fff, 100);
+  }
+  h2{
+    @include fonty(2em, #fff, 100);
+  }
+  p{
+    @include fonty(1.8em, #fff - 50, 100);
+    line-height: 1.2em;
+  }
+}

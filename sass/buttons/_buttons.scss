@@ -1,0 +1,7 @@
+@mixin style-btn($bg, $pad, $border, $margin){
+  background: $bg;
+  padding: $pad;
+  border: $border;
+  margin: $margin;
+  @include fonty(1.4em, #fff, 100);
+}

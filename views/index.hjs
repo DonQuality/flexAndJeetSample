@@ -24,7 +24,6 @@
           <li class="item">link 4</li>
         </ul>
       </nav>
-      <p class="toggle-menu hide-on-desktop">&#9776;</p>
     </header>
     <section class="sports-cars-wrap">
       <h1 class="title">Example</h1>

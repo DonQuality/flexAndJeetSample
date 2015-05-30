@@ -6,7 +6,6 @@
 .toggle-menu{
   @include fonty(2em, #555, 100);
   float: right;
-  font-size: 2em;
   &:hover{
     cursor: pointer;
   }

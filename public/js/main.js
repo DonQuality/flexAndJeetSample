@@ -1,7 +1,11 @@
-$('.toggle-menu').on('click', function(){
-  alert('Just a sample, menu doesn\'t exist');
-});
+$(document).ready(function(){
+  if ( $(window).width() > 1000){
+    $('.toggle-menu').on('click', function(){
+      alert('Just a sample, menu doesn\'t exist');
+    });
 
-$("body").velocity("transition.slideUpIn", 2500).delay(2200);
+    $("body").velocity("transition.slideUpIn", 2500).delay(2200);
 
-$('.car-box').velocity("transition.slideDownIn", { stagger: 150});
+    $('.car-box').velocity("transition.slideDownIn", { stagger: 150});
+  }
+})
